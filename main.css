@@ -1,0 +1,248 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(11, 26, 105);
+  background-color: rgb(236, 236, 236);
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+figcaption {
+  text-align: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(28, 31, 199);
+}
+
+a:hover {
+  color: rgb(209, 9, 9);
+  background-color: rgb(255, 241, 38);
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: rgb(209, 9, 9);
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#footertitle {
+  padding-left: 10%;
+}
+
+#img-div {
+  padding: 10px;
+  margin: 0;
+}
+
+#title-block {
+  width: 50%;
+  height: 80px;
+  background-color: rgb(209, 9, 9);
+  color: white;
+  margin: auto;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  padding-top: 10%;
+}
+
+#title {
+  text-align: center;
+  font-size: 48px;
+}
+
+#title-description {
+  text-align: center;
+  color: black;
+}
+
+#premiereligne {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tribute-info {
+  color: rgb(255, 255, 255);
+  background-color: rgb(209, 9, 9);
+  flex-shrink: 1;
+}
+
+#portrait {
+  height: auto;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+#deuxiemeligne {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+#tribute-infodeux {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 241, 38);
+  border-top: 5px solid rgb(8, 7, 7)
+}
+
+#image2 {
+  height: auto;
+  width: 300px;
+}
+
+#troisiemeligne {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tribute-date {
+  color: rgb(255, 255, 255);
+  background-color: rgb(28, 31, 199);
+  border-top: 5px solid rgb(8, 7, 7)
+}
+
+#image3 {
+  height: auto;
+  width: 300px;
+}
+
+.blocleft {
+  max-width: 70%;
+  border-left: 5px solid rgb(8, 7, 7);
+  padding-left: 5px;
+}
+.blocright {
+  max-width: 70%;
+  border-right: 5px solid black;
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+
+  #title {
+    font-size: 48px;
+  }
+
+  #tribute-info {
+    max-width: 80%;
+    border-bottom: 5px solid rgb(8, 7, 7)
+  }
+
+  #portrait {
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #tribute-infodeux {
+    max-width: 80%;
+    border-bottom: 5px solid rgb(8, 7, 7)
+  }
+
+  #image2 {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-right: 5px solid rgb(8, 7, 7)
+  }
+
+  #tribute-date {
+    max-width: 80%;
+  }
+
+  #image3 {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-left: 5px solid rgb(8, 7, 7)
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+
+  #title {
+    font-size: 36px;
+    padding-top: 20px;
+  }
+
+  #tribute-info {
+    max-width: 80%;
+  }
+
+  #tribute-infodeux {
+    max-width: 80%;
+  }
+
+  #tribute-date {
+    max-width: 80%;
+  }
+
+  #footertitle {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  #title {
+    font-size: 26px;
+    padding-top: 35px;
+  }
+
+  #tribute-info {
+    max-width: 80%;
+  }
+
+  #tribute-infodeux {
+    max-width: 80%;
+  }
+
+  #tribute-date {
+    max-width: 80%;
+  }
+
+  #footertitle {
+    font-size: 1rem;
+  }
+}
